@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class SignBookPlugin extends JavaPlugin implements CommandExecutor {
 
     // flags to control whether OP is required for signing/unsigning
-    private final boolean requireOpToSign = true;
+    private final boolean requireOpToSign = false;
     private final boolean requireOpToUnsign = true;
 
     @Override
